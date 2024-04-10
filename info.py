@@ -59,7 +59,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', url='https://t.me/') # How to open tuto
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Tulinks.Online')
-SHORTLINK_API = environ.get('SHORTLINK_API', '757df607ee64875bd63c4ab0be3f6990740ecafe')')
+SHORTLINK_API = environ.get('SHORTLINK_API', '757df607ee64875bd63c4ab0be3f6990740ecafe')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
