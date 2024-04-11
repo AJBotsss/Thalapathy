@@ -55,7 +55,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
-HOWTOVERIFY = environ.get('HOWTOVERIFY', url='https://t.me/') # How to open tutorial link for verification
+HOWTOVERIFY = environ.get('HOWTOVERIFY', url='https://t.me/c/2129259781/8') # How to open tutorial link for verification
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Tulinks.Online')
@@ -67,7 +67,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+UIq6GethUsRiNGE1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TKORIGINALS2')
-TUTORIAL = environ.get('TUTORIAL','https://t.me/+0msiCHluHQo4NWJl') # Tutorial video link for opening shortlink website 
+TUTORIAL = environ.get('TUTORIAL','https://t.me/c/2129259781/8') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : TKORIGINALS')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002132900217')) #Log channel id ( make sure bot is admin )
